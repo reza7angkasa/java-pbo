@@ -29,7 +29,7 @@ class sabeb{
         return this.D;
     }
 }
-public class myclass {
+public class tugas9 {
 
         static int dicari(int A[],int cari){
             for(int i=0; i<A.length; i++){
