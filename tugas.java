@@ -23,7 +23,7 @@ public class tugas {
             System.out.print("Password: ");
             String password = cc.nextLine();
             if ((username.equals(username1)) && (password.equals(password1))) {
-                System.out.println("Loggin Success");
+                System.out.println("Log In Success");
                 System.exit(0);
             } else {
                 System.out.println("Try Again");
@@ -35,7 +35,7 @@ public class tugas {
         System.out.print("Password: ");
         String password = input.nextLine();
         if ((username.equals(username1)) && (password.equals(password1))) {
-            System.out.println("Loggin Success");
+            System.out.println("Log In Success");
             System.exit(0);
         }else{
             System.out.println("You Have Been Blocked");
