@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+      <AnchorPane prefHeight="44.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="229.0" layoutY="9.0" prefHeight="30.0" prefWidth="155.0" text="Practice">
+               <font>
+                  <Font name="Eras Bold ITC" size="25.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="129.0" prefWidth="600.0" style="-fx-background-color: orange;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="label_pesan" alignment="CENTER" layoutX="90.0" layoutY="14.0" prefHeight="30.0" prefWidth="420.0">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font></Label>
+            <Button fx:id="button_success" alignment="CENTER" layoutX="262.0" layoutY="111.0" mnemonicParsing="false" onAction="#button_pesan" text="Upload">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font></Button>
+            <TextField fx:id="text_box" alignment="CENTER" layoutX="89.0" layoutY="53.0" prefHeight="46.0" prefWidth="422.0">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font></TextField>
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <AnchorPane prefHeight="199.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="equals" alignment="CENTER" layoutX="24.0" layoutY="14.0" prefHeight="30.0" prefWidth="549.0" text="0">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nilai" alignment="CENTER" layoutX="183.0" layoutY="52.0" prefHeight="26.0" prefWidth="110.0">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="nilaii" alignment="CENTER" layoutX="302.0" layoutY="52.0" prefHeight="26.0" prefWidth="110.0">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </TextField>
+            <Button fx:id="add" alignment="CENTER" layoutX="249.0" layoutY="87.0" mnemonicParsing="false" onAction="#plus" text="+">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="substract" alignment="CENTER" layoutX="316.0" layoutY="87.0" mnemonicParsing="false" onAction="#minus" prefHeight="28.0" prefWidth="29.0" text="-">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="divide" alignment="CENTER" layoutX="249.0" layoutY="125.0" mnemonicParsing="false" onAction="#div" text="/">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="multiply" alignment="CENTER" layoutX="316.0" layoutY="125.0" mnemonicParsing="false" onAction="#mul" text="*">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="erase" layoutX="226.0" layoutY="157.0" mnemonicParsing="false" onAction="#del" prefHeight="26.0" prefWidth="147.0" text="Delete">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="15.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </bottom>
+</BorderPane>
