@@ -29,7 +29,7 @@
                <font>
                   <Font name="Bauhaus 93" size="18.0" />
                </font></Button>
-            <TextField fx:id="text_box" alignment="CENTER" layoutX="89.0" layoutY="53.0" prefHeight="46.0" prefWidth="422.0">
+            <TextField fx:id="text_box" alignment="CENTER" layoutX="89.0" layoutY="53.0" prefHeight="46.0" prefWidth="422.0" promptText="What Are You Thinking Today?">
                <font>
                   <Font name="Bauhaus 93" size="18.0" />
                </font></TextField>
@@ -44,12 +44,12 @@
                   <Font name="Franklin Gothic Demi" size="18.0" />
                </font>
             </Label>
-            <TextField fx:id="nilai" alignment="CENTER" layoutX="183.0" layoutY="52.0" prefHeight="26.0" prefWidth="110.0">
+            <TextField fx:id="nilai" alignment="CENTER" layoutX="183.0" layoutY="52.0" prefHeight="26.0" prefWidth="110.0" promptText="0">
                <font>
                   <Font name="Franklin Gothic Demi" size="15.0" />
                </font>
             </TextField>
-            <TextField fx:id="nilaii" alignment="CENTER" layoutX="302.0" layoutY="52.0" prefHeight="26.0" prefWidth="110.0">
+            <TextField fx:id="nilaii" alignment="CENTER" layoutX="302.0" layoutY="52.0" prefHeight="26.0" prefWidth="110.0" promptText="0">
                <font>
                   <Font name="Franklin Gothic Demi" size="15.0" />
                </font>
